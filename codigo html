@@ -1,72 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Pagina de Cristiano "el bicho" Ronaldo</title>
-    <style>
-      body {
-        background-image: url('https://estaticos-cdn.sport.es/clip/67b424c1-10da-41b5-89ff-1d6cf52de643_alta-libre-aspect-ratio_default_0.jpg');
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Pagina de Cristiano "el bicho" Ronaldo</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-     
-    </style>
-  </head>
-  <body>
-    <div class="container-fluid text-white">
-      <h1 class="text-center p-4" style="font-weight: bold;"> Cristiano "el bicho" Ronaldo</h1>
+    .container-fluid {
+      padding: 20px;
+    }
+
+    h1 {
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      border: 1px solid #2c2c2c;
+      color: #ffffff;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card-title {
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .card-text {
+      color: #dddddd;
+    }
+
+    .btn-primary {
+      background-color: #4CAF50;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid text-white">
+    <h1 class="p-4">Cristiano "el bicho" Ronaldo</h1>
+  </div>
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="https://depor.com/resizer/AZ6PXNiums4UIOioRNZtdciq3Ps=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/52ZQVH7JNRDWZBEJGL4Q7G6URU.jpg" alt="Sporting Lisbon" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Sporting de Lisboa</h5>
+            <p class="card-text">Sporting de Lisboa fue el primer equipo profesional en el que jugó Cristiano Ronaldo. <br>
+              <a href="https://www.goal.com/es/galer%C3%ADas/la-historia-de-cristiano-ronaldo-en-el-sporting-de-lisboa/1/z47716f81egk18hk5um56mmjx" target="_blank" class="btn btn-primary">Leer mas</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="container-fluid mt-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="https://depor.com/resizer/AZ6PXNiums4UIOioRNZtdciq3Ps=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/52ZQVH7JNRDWZBEJGL4Q7G6URU.jpg" alt="Sporting Lisbon" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h5 class="card-title" style="font-weight: bold;">Sporting de Lisboa</h5>
-              <p class="card-text">Sporting de Lisboa fue el primer equipo profesional en el que jugó Cristiano Ronaldo. <br>
-                <br>
-                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwipt9nXpfiBAxX6kmoFHVPiAywQFnoECCMQAQ&url=https%3A%2F%2Fwww.goal.com%2Fes%2Fgaler%25C3%25ADas%2Fla-historia-de-cristiano-ronaldo-en-el-sporting-de-lisboa%2F1%2Fz47716f81egk18hk5um56mmjx&usg=AOvVaw1qlUaJYtnRm9kHpGPjAOiK&opi=89978449" target="_blank" class="btn btn-primary">Leer mas</a>
-              </p>
-            </div>
+  </div>
+  
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="https://www.eleconomista.com.mx/__export/1630299082678/sites/eleconomista/img/2021/08/29/cristiano_afp.jpg_423682103.jpg" alt="Manchester United" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Manchester United</h5>
+            <p class="card-text">Durante su paso por el Manchester United de Ferguson, Ronaldo alcanzó muchos éxitos y su reconocimiento comenzó. <br>
+              <a href="https://www.manutd.com/es/players-and-staff/detail/cristiano-ronaldo" target="_blank" class="btn btn-primary">Leer mas</a>
+            </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="https://www.eleconomista.com.mx/__export/1630299082678/sites/eleconomista/img/2021/08/29/cristiano_afp.jpg_423682103.jpg" alt="Manchester United" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h5 class="card-title" style="font-weight: bold;">Manchester United</h5>
-              <p class="card-text">Durante su paso por el Manchester United de Ferguson, Ronaldo alcanzó muchos éxitos y su reconocimiento comenzó. <br>
-                <br>
-                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjxk-Skp_iBAxVckWoFHXKLA_UQFnoECCAQAQ&url=https%3A%2F%2Fwww.manutd.com%2Fes%2Fplayers-and-staff%2Fdetail%2Fcristiano-ronaldo&usg=AOvVaw0mLktC1Em48oLM2K2UXcNX&opi=89978449" target="_blank" class="btn btn-primary">Leer mas</a>
-              </p>
-            </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt70e81849d6f608b8/60dabb260bc1b20fa6b5a96e/99abdc6ca3a2a514c6889ef42f7d68e2fb51899d.jpg" alt="Real Madrid" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Real Madrid</h5>
+            <p class="card-text">El Real Madrid fue la cúspide de su carrera donde alcanzó la mayoría de sus logros actuales consiguiendo 5 Champions Leagues. <br>
+              <a href="https://www.realmadrid.com/sobre-el-real-madrid/el-club/historia/jugadores-de-leyenda-futbol/cristiano-ronaldo-dos-santos-aveiro" target="_blank" class="btn btn-primary">Leer mas</a>
+            </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltee886584fd1cd345/60db8718892a730f5883a347/68a712aa7ffd3da7d91c2fe1469bda58990f7ab7.jpg?auto=webp&format=pjpg&width=3840&quality=60" alt="Real Madrid" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h5 class="card-title" style="font-weight: bold;">Real Madrid</h5>
-              <p class="card-text">El Real Madrid fue la cúspide de su carrera donde alcanzó la mayoría de sus logros actuales consiguiendo 5 Champions Leagues. <br>
-                <br>
-                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi16_PrqPiBAxXQlGoFHa8tC_gQFnoECBoQAQ&url=https%3A%2F%2Fwww.realmadrid.com%2Fsobre-el-real-madrid%2Fel-club%2Fhistoria%2Fjugadores-de-leyenda-futbol%2Fcristiano-ronaldo-dos-santos-aveiro&usg=AOvVaw3GloLT5R-_yyvjtWiI_jsa&opi=89978449" target="_blank" class="btn btn-primary">Leer mas</a>
-              </p>
-            </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="https://depor.com/resizer/yBmeCLUXde78ayjntdRnavIMTZM=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LWB6SS66EFGZBDRYICFAZHNO7I.jpg" alt="Juventus" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">Juventus</h5>
+            <p class="card-text">Durante su paso por Juventus logro conseguir varios titulos nacionales para el club donde le demostro a todo el mundo que su carrera no habia acabado. <br>
+              <a href="https://www.footballtransfers.com/en/transfer-news/it-serie-a/2021/08/cristiano-ronaldo-juventus-goals-assists-results-fixtures-2021-22" target="_blank" class="btn btn-primary">Leer mas</a>
+            </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="https://depor.com/resizer/yBmeCLUXde78ayjntdRnavIMTZM=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LWB6SS66EFGZBDRYICFAZHNO7I.jpg" alt="Juventus" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h5 class="card-title" style="font-weight: bold;">Juventus</h5>
-              <p class="card-text">Durante su paso por Juventus logro conseguir varios titulos nacionales para el club donde le demostro a todo el mundo que su carrera no habia acabado. <br>
-                <br>
-                <a href="https://www.transfermarkt.com/cristiano-ronaldo/leistungsdatenverein/spieler/8198" target="_blank" class="btn btn-primary">Leer mas</a>
-              </p>
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+</body>
+</html>
